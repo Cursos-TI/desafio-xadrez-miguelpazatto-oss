@@ -27,6 +27,22 @@ int main () {
         p++;
     } while (p <= 7);
 
+        printf("\n");
+
+
+    // Definindo movimento do cavalo
+    int l = 1;
+
+    while (l--) {
+        
+        for (int m = 0; m < 2; m++)
+        {
+            printf("Cavalo se moveu para baixo\n");
+        }
+
+        printf("Cavalo se moveu para a esquerda\n");
+    
+    }
 
     return 0;
 }
